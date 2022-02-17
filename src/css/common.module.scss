@@ -1,0 +1,13 @@
+/* 设置铺满整个父组件 */
+.full{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+/* 设置子组件居中 */
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

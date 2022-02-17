@@ -1,0 +1,23 @@
+.animation {
+    /* 渐变背景颜色。颜色搭配将决定渐变得是否自然（有无明显的颜色边缘线条） */
+    background: linear-gradient(125deg, #ffffff, #7ed6df, #e056fd, #686de0, #c7ecee);
+    /* 决定渐变动画速度（值越大，速度越大）
+    以及渐变得是否自然（有无明显的颜色边缘线条）（值越大，渐变越自然） */
+    background-size: 10000%;
+    /* 执行动画：动画名 时长 无限次播放 线性变化*/
+    /* 动画时间越长，渐变越自然，渐变动画速度越小 */
+    animation: gradualBgAnimation 30s infinite linear;
+}
+
+/* 位移动画帧 */
+@keyframes gradualBgAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}

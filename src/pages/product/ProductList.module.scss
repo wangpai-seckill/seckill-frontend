@@ -1,0 +1,43 @@
+.itemDescription {
+  text-align: left;
+}
+
+.itemDescription:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.fishing {
+  display: block;
+  width: 300px;
+  height: 300px;
+  background: url(../../img/pic/product_fishing-static.png) 0 0 no-repeat;
+  background-size: 100%;
+}
+
+.fishing:hover {
+  display: block;
+  width: 300px;
+  height: 300px;
+  background: url(../../img/pic/product_fishing-gif.gif) 0 0 no-repeat;
+  background-size: 100%;
+  cursor: pointer;
+}
+
+.helpingChildren {
+  display: block;
+  width: 300px;
+  height: 300px;
+  background: url(../../img/pic/product_helpingChildren-1.png) 0 0 no-repeat;
+  background-size: 100%;
+  cursor: pointer;
+}
+
+.luckyBox {
+  display: block;
+  width: 300px;
+  height: 300px;
+  background: url(../../img/pic/product_luckyBox-1.jpg) 0 0 no-repeat;
+  background-size: 100%;
+  cursor: pointer;
+}

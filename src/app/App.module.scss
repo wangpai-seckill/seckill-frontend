@@ -1,0 +1,11 @@
+.app {
+    background: #f5f5f5;
+    text-align: center;
+}
+
+/* 设置铺满整个父组件 */
+.full {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
